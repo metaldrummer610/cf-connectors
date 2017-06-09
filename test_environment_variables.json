@@ -1,0 +1,100 @@
+{
+  "elephantsql": [
+    {
+      "credentials": {
+        "uri": "postgres://user:pass@host.com:5432/db",
+        "max_conns": "5"
+      },
+      "syslog_drain_url": null,
+      "volume_mounts": [],
+      "label": "elephantsql",
+      "provider": null,
+      "plan": "turtle",
+      "name": "pgsql_db",
+      "tags": [
+        "Data Stores",
+        "Web-based",
+        "Open Source",
+        "User Provisioning",
+        "PaaS",
+        "Single Sign-On",
+        "Windows",
+        "New Product",
+        "Mac",
+        "Android",
+        "Certified Applications",
+        "Developer Tools",
+        "Data Store",
+        "postgresql",
+        "Buyable",
+        "relational",
+        "Importable",
+        "IT Management"
+      ]
+    }
+  ],
+  "cloudamqp": [
+    {
+      "credentials": {
+        "uri": "amqp://user:pass@host.com/instance",
+        "http_api_uri": "https://admin:pass@host.com/api/"
+      },
+      "syslog_drain_url": null,
+      "volume_mounts": [],
+      "label": "cloudamqp",
+      "provider": null,
+      "plan": "lemur",
+      "name": "test-amqp",
+      "tags": [
+        "Customer Service",
+        "Web-based",
+        "User Provisioning",
+        "Messaging and Queuing",
+        "IT Service Management",
+        "amqp",
+        "Backup",
+        "Online Backup & Storage",
+        "Single Sign-On",
+        "Cloud Security and Monitoring",
+        "New Product",
+        "rabbitmq",
+        "Android",
+        "Certified Applications",
+        "Developer Tools",
+        "Cloud Deployment & Management",
+        "Development and Test Tools",
+        "Buyable",
+        "Messaging",
+        "Importable",
+        "IT Management"
+      ]
+    }
+  ],
+  "rediscloud": [
+    {
+      "credentials": {
+        "hostname": "host.com",
+        "password": "pass",
+        "port": "18945"
+      },
+      "syslog_drain_url": null,
+      "volume_mounts": [],
+      "label": "rediscloud",
+      "provider": null,
+      "plan": "30mb",
+      "name": "test-redis",
+      "tags": [
+        "Data Stores",
+        "Web-based",
+        "Data Store",
+        "Caching",
+        "Messaging and Queuing",
+        "Data Management",
+        "key-value",
+        "IT Management",
+        "caching",
+        "redis"
+      ]
+    }
+  ]
+}
